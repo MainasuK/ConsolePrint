@@ -1,5 +1,5 @@
 # ConsolePrint
-[![CI Status](https://img.shields.io/travis/CMK/ConsolePrint.svg?style=flat)](https://travis-ci.org/CMK/ConsolePrint)
+[![CI Status](https://img.shields.io/travis/MainasuK/ConsolePrint.svg?style=flat)](https://travis-ci.org/MainasuK/ConsolePrint)
 [![Version](https://img.shields.io/cocoapods/v/ConsolePrint.svg?style=flat)](https://cocoapods.org/pods/ConsolePrint)
 [![License](https://img.shields.io/cocoapods/l/ConsolePrint.svg?style=flat)](https://cocoapods.org/pods/ConsolePrint)
 [![Platform](https://img.shields.io/cocoapods/p/ConsolePrint.svg?style=flat)](https://cocoapods.org/pods/ConsolePrint)
