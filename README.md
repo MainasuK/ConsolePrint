@@ -9,7 +9,22 @@ This idea come from [here](https://onevcat.com/2016/02/swift-performance/). Has 
 ## Installation
 
 ```ruby
+…
 pod 'ConsolePrint'
+…
+
+# Enable ConsolePrint manually. Default not print anything
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+      if ['ConsolePrint'].include? target.name
+          target.build_configurations.each do |config|
+              if config.name == "Debug"
+                  config.build_settings['SWIFT_ACTIVE_COMPILATION_CONDITIONS'] += "ConsolePrint"
+              end
+          end
+      end
+  end
+end
 ```
 
 

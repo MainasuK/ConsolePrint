@@ -1,0 +1,16 @@
+PODS:
+  - ConsolePrint (0.1.0)
+
+DEPENDENCIES:
+  - ConsolePrint (from `../`)
+
+EXTERNAL SOURCES:
+  ConsolePrint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ConsolePrint: 695d494f0a2595d1792ec19483f2aa16e4501c19
+
+PODFILE CHECKSUM: ec87bc4b4e6b3a6ba7f80d034cdf162895665dc8
+
+COCOAPODS: 1.7.2

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.homepage     = "https://github.com/MainasuK/ConsolePrint"
   s.name         = "ConsolePrint"
-  s.version      = "0.1.0"
+  s.version      = "0.2.0"
   s.summary      = "Debug version print"
   s.description  = <<-DESC
     Debug version print. Support print code context and release optimizing.

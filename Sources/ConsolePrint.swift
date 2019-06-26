@@ -14,7 +14,9 @@ public func consolePrint<T>(
     method: String = #function,
     line: Int      = #line) {
     #if DEBUG
-    let msg = message()
-    print("^ \((file as NSString).lastPathComponent)[\(line)], \(method): \(msg)", terminator: "\n")
+        #if ConsolePrint
+        let msg = message()
+        print("^ \((file as NSString).lastPathComponent)[\(line)], \(method): \(msg)", terminator: "\n")
+        #endif
     #endif
 }
